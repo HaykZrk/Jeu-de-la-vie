@@ -1,0 +1,2 @@
+CPPFLAGS += -Iinclude -I/usr/include/cairo
+LDFLAGS += -lcairo -lm -lX11
