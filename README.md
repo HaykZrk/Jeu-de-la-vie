@@ -34,6 +34,6 @@ l'UFR Mathématique et Informatique (Université de Strasbourg).
 
 ## Exécution
 
-./<nom exe> grilles/grille<nombre>.txt
+./"nom exe" grilles/grille"nombre 1-8".txt
 
 exemple : ./prog_cairo grilles/grille1.txt
