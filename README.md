@@ -1,7 +1,10 @@
-	INFORMATION GENERALE 
-#
-	  COMMANDE MAKEFILE 
+# JEU DE LA VIE - LIB CAIRO 
 
+## Description 
+Ce dépôt contiendra l'évolution du projet "Jeu de la vie" programmé pour l'UE Techniques de développement de
+l'UFR Mathématique et Informatique (Université de Strasbourg).
+
+## Commande Makefile 
 
 - make : Compilation du jeu avec l'interface graphique.
 
@@ -14,8 +17,3 @@
 	    pour la compilation.
 
 - make clean : Suppression des fichiers optionnelles à la compilation.
-
-
-#
-	  BON JEU 
-
