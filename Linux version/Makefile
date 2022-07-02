@@ -25,6 +25,7 @@ $(EXEC) : $(OBJETS)
 	$(CC) $(CFLAGS) -o $@ $? $(CFLAGS2)
 	mkdir -p bin
 	mv -f $(EXEC) bin/
+	mv -f ./grilles bin/
 
 $(OBJ)main.o: main.c grille.h io.h jeu.h
 	$(CC) $(CFLAGS) -c $< $(CFLAGS2)
@@ -44,6 +45,7 @@ prog_cairo : $(OBJETS)
 	$(CC) $(CFLAGS) -o $@ $? $(LDFLAGS) $(CPPFLAGS)
 	mkdir -p bin
 	mv -f prog_cairo bin/
+	mv -f ./grilles bin/
 
 $(OBJ)main_cairo.o: main_cairo.c grille.h io_cairo.h jeu.h
 	$(CC) $(CFLAGS) -c $< $(LDFLAGS) $(CPPFLAGS)
@@ -67,4 +69,5 @@ dist:
 	$(ARCHIVE) include src Makefile Doxyfile .gitignore
 	
 clean : 
+	mv ./bin/grilles ./
 	rm -rf obj bin *.tar.xz doc

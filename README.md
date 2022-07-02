@@ -17,3 +17,23 @@ l'UFR Mathématique et Informatique (Université de Strasbourg).
 	    pour la compilation.
 
 - make clean : Suppression des fichiers optionnelles à la compilation.
+
+## Touches de contrôle
+
+- v : permet d'activer/désactiver le vieillissement
+
+- c : permet d'activer/désactiver le mode cyclique
+
+- n : permet de charger une nouvelle grille en respectant le chemin grilles/
+
+- o : permet de savoir si la colonie est oscillante ou non
+
+- clic gauche de souris : fait évoluer la grille
+
+- clic droit de souris : quitte le jeu
+
+## Exécution
+
+./<nom exe> grilles/grille<nombre>.txt
+
+exemple : ./prog_cairo grilles/grille1.txt
